@@ -1,7 +1,50 @@
+main {
+  margin: 0px 5%;
+}
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+}
+#game img {
+    width: 700px;
+    height: 600px;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.484);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#presentation h1 {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+#presentation p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+#call-to-play {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
