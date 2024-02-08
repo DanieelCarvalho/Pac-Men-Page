@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #0f253d;
+  --secondary-color: #d17a11;
+  --secondary-color-2: #cc9900;
+  --secondary-color-3: #e5e4c6;
+  --secondary-color-4: #111111;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +13,15 @@
   font-family: "VT323", monospace;
 }
 
-:root {
-  --primary-color: #0f253d;
-  --secondary-color: #d17a11;
-  --secondary-color-2: #cc9900;
-  --secondary-color-3: #e5e4c6;
-  --secondary-color-4: #111111;
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.514)),
+    url(assets/bg-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
