@@ -1,1 +1,28 @@
-<p>contact works!</p>
+<form [formGroup]="formulario">
+  <h2>Entre em contado com a gente:</h2>
+  <!-- <h1>{{ formulario.value | json }}</h1> -->
+
+  <div class="input-group mb-3">
+    <input
+      type="email"
+      placeholder="Endereço de email"
+      formControlName="assunto"
+      class="form-control form-control-lg"
+    />
+  </div>
+  <div class="input-group mb-3">
+    <input
+      type="text"
+      placeholder="Assunto"
+      formControlName="assunto"
+      class="form-control form-control-lg"
+    />
+  </div>
+  <div class="input-group mb-3">
+    <textarea
+      class="form-control"
+      placeholder="Mensagem"
+      formControlName="mensagem"
+    ></textarea>
+  </div>
+</form>

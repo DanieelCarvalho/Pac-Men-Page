@@ -3,8 +3,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  height: 8vh;
+  height: 16vh;
+  margin-top: auto;
 }
-h5 {
+p {
   color: #fff;
+  font-size: 32px;
 }
